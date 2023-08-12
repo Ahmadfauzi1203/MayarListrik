@@ -1,0 +1,24 @@
+### PEDOMAN PENGGUNAAN APLIKASI BY Ahmad Fauzi UBSI ###
+
+Instalasi APK
+1. Import Database SQL pada XAMPP
+2. Sesuaikan Nama database dengan nama database di file .ENV
+3. running menggunakan Artisan
+
+
+Autentikasi Aktor
+~Admin = admin + Admin*123
+~petugas = petugas + petugas
+~Pelanggan = sunaryo + sunaryo 
+
+
+Alur Aplikasi Listrik Pasca bayar
+1. Masuk sebagai Admin Buat data Tarif
+2. Buat Pelanggan
+3. Buat data Penggunaan
+4. Buat Tagihan -> logout
+5. Register akun hanya untuk pelanggan
+6. Login -> Konfirmasi Pembayaran -> Logout 
+7. Masuk Sebagai Petugas/ admin -> pilih menu pembayaran
+8. Konfirmasi Pembayaran pelanggan -> logout
+9. Masuk sebagai pelanggan dan cetak bukti ==> END
